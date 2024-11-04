@@ -27,13 +27,14 @@ ticket_types_price.
 связь 1:1 к Tickets.(ticket_types_price.id к tickets.ticket_price_id)
 
 <h2 align="center">Задание №3</h2>
+
 ## Команды для запуска проекта(используется sqlite, для локальной быстрой развертки проекта)
-### 1) composer install
-### 2) создать копию файла .env.example с названием .env
-### 3) php artisan key:generate
-### 4) php artisan migrate
-### 5) php artisan serve
-### 6) endpoint для задачи №1 - (post) /api/order   - параметры (event_id, event_date, ticket_adult_price, ticket_adult_quantity, ticket_kid_price, ticket_kid_quantity)
+* composer install
+* создать копию файла .env.example с названием .env
+* php artisan key:generate
+* php artisan migrate
+* php artisan serve
+* endpoint для задачи №1 - (post) /api/order   - параметры (event_id, event_date, ticket_adult_price, ticket_adult_quantity, ticket_kid_price, ticket_kid_quantity)
 
 
 
